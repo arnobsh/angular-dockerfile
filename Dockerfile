@@ -1,3 +1,4 @@
+# Contatiner have been developed for testing of node packages
 # This container runs node
 FROM node:latest
 MAINTAINER You
