@@ -32,6 +32,8 @@ RUN npm install -g inherits \
   chai \
   grunt-cli \
   jasmine-node \
+  eslint \
+  eslint-config-angular \
   jasmine-reporters@1.0.0 \
   karma \
   karma-chrome-launcher \
