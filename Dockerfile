@@ -28,11 +28,10 @@ RUN npm install -g inherits \
   yo \
   bower \
   yarn \
-  mocha \
-  chai \
   grunt-cli \
   jasmine-node \
   eslint \
+  eslint-plugin-angular \
   eslint-config-angular \
   jasmine-reporters@1.0.0 \
   karma \
@@ -41,12 +40,9 @@ RUN npm install -g inherits \
   karma-jasmine \
   karma-junit-reporter \
   karma-ng-scenario \
-  protractor \
   && rm -rf /root/.npm/
 
 RUN google-chrome --version
-
-RUN webdriver-manager update
 
 ENV NODE_PATH /usr/lib/nodejs/:/usr/local/lib/node_modules/
 ENV CHROME_BIN /usr/bin/google-chrome
